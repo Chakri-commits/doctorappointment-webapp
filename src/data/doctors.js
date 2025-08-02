@@ -31,12 +31,14 @@ const doctors = [
     id:6,
     name:"Dr. Srihari",
     specialization: "parademic",
+    image: "https://painlesshire.com/wp-content/uploads/2017/07/doctor.jpg",
     available:false
   },
   {
     id:6,
-    name:"Dr. Jayaraj",
+    name:"Dr. Sneha Rao",
     specialization: "pyschologist",
+    image:"https://segurancadotrabalhosempre.com/wp-content/uploads/2016/08/O6T8LS01.jpg",
     available:true
   }
 ];
