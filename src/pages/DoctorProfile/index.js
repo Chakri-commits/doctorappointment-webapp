@@ -11,7 +11,7 @@ const DoctorProfile = () => {
      alert("ok")
   }
   useEffect(() => {
-    fetch('https://jsonkeeper.com/b/DKAIV')
+    fetch('https://jsonkeeper.com/b/AIV')
       .then(res => res.json())
       .then(data => {
         const found = data.find(doc => doc.id === parseInt(id));
@@ -41,8 +41,8 @@ const DoctorProfile = () => {
 
         {doctor.schedule ? (
           <div className="schedule-info">
-            <p><strong>Days:</strong> {doctor.schedule.days.join(', ')}</p>
-            <p><strong>Time:</strong> {doctor.schedule.time}</p>
+            <p><h1>Days:</h1> {doctor.schedule.days.join(', ')}</p>
+            <p><h1>Time:</h1> {doctor.schedule.time}</p>
           </div>
         ) : (
           <p>No schedule available.</p>
